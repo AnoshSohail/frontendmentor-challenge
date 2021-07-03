@@ -60,7 +60,7 @@ I learned some more css properties like mix-blend-mode, opacity and flexbox. The
   justify-content: center;
   align-items: center;
 }
-
+```
 
 ### Continued development
 
