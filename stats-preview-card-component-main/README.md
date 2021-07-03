@@ -27,24 +27,26 @@ Users should be able to:
 
 ### Screenshot
 
-stats-preview-card-component-main\Screenshots\Desktop View (Screenshot).jpg
-stats-preview-card-component-main\Screenshots\Mobile View 1 (Screenshot).jpg
-stats-preview-card-component-main\Screenshots\Mobile View 2 (Screenshot).jpg
+![Desktop View (Screenshot)](https://user-images.githubusercontent.com/69400609/124350038-b5eea900-dc0b-11eb-9a07-a7c6a9e19312.jpg)
+![Mobile View 1 (Screenshot)](https://user-images.githubusercontent.com/69400609/124350039-b7b86c80-dc0b-11eb-9586-41fc3d7de588.jpg)
+![Mobile View 2 (Screenshot)](https://user-images.githubusercontent.com/69400609/124350040-b7b86c80-dc0b-11eb-8ea2-da6d99045db8.jpg)
+
 
 ### Links
 
-- Solution URL: (https://github.com/AnoshSohail/frontendmentor-challenge/tree/main/stats-preview-card-component-main)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: https://github.com/AnoshSohail/frontendmentor-challenge/tree/main/stats-preview-card-component-main
+- Live Site URL: https://anoshsohail.github.io/frontendmentor-challenge/stats-preview-card-component-main/
 
 ## My process
+
 I started with the mobile-first approach. The most easy thing to do in this challenge was the text part. But the image part gave me tough time. Glad it's done.
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
--flexbox
+- Flexbox
 - CSS Grid
--Bootstrap
+- Bootstrap
 - Mobile-first workflow
 
 ### What I learned
