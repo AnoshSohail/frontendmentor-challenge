@@ -3,6 +3,7 @@ body{
   font-family: "Inter", sans-serif;
 }
 .container{
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -82,7 +83,7 @@ ul{
   .container{
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 100px;
+    padding-top: 130px;
   }
   .card{
     width: 1000px;
