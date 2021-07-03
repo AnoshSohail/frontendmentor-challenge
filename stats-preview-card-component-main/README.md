@@ -33,8 +33,8 @@ stats-preview-card-component-main\Screenshots\Mobile View 2 (Screenshot).jpg
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/AnoshSohail/frontendmentor-challenge/tree/main/stats-preview-card-component-main)
+- Live Site URL: (https://your-live-site-url.com)
 
 ## My process
 I started with the mobile-first approach. The most easy thing to do in this challenge was the text part. But the image part gave me tough time. Glad it's done.
