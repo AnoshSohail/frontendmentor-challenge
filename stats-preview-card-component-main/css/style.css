@@ -1,6 +1,5 @@
 body{
   background-color: hsl(233, 47%, 7%);
-  font-family: "Inter", sans-serif;
 }
 .container{
 
@@ -16,11 +15,11 @@ body{
   border-radius: .5rem;
   padding-bottom: 0px;
 }
-.mainheading{
+.mainheading h1{
   font-family: "Inter", sans-serif;
   font-weight: 700;
   color: hsl(0, 0%, 100%);
-  padding: 20px 15px 5px 20px;
+  padding: 20px 15px 5px 10px;
   text-align: center;
 }
 span {
@@ -58,11 +57,13 @@ padding: 0;
   color: hsla(0, 0%, 100%, 0.6);
   text-transform: uppercase;
   font-size: 10px;
+  font-family: "Inter", sans-serif;
 }
-h2 {
+ul li h2 {
   color: hsl(0, 0%, 100%);
   padding-top:20px;
   line-height: 20px;
+  font-weight: 400;
 }
 ul{
   list-style: none;
@@ -107,12 +108,14 @@ ul{
     opacity: 0.5;
     mix-blend-mode: multiply;
   }
-.mainheading{
+.mainheading h1{
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
         text-align: left;
     padding-right: 20px;
-    padding-left: 52px;
+    padding-left: 20px;
   }
-.paragraph{
+.paragraph p{
     padding-left: 55px;
     text-align: left;
     padding-right: 100px;
