@@ -39,7 +39,8 @@ Users should be able to:
 
 ## My process
 
-I started with the mobile-first approach. The most easy thing to do in this challenge was the text part. But the image part gave me tough time. Glad it's done.
+I started with the mobile-first approach.Then i used media query to create destop view. To center the card i used justify-content: center and align-items: center. I used grids for main heading, paragraph and stats.
+
 ### Built with
 
 - Semantic HTML5 markup
