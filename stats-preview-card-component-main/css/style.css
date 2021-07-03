@@ -73,6 +73,7 @@ ul{
 }
 .attribution{
   font-size: 11px; text-align: center; 
+  padding-bottom: 20px;
 }
 .attribution a 
 { 
@@ -84,7 +85,11 @@ ul{
   .container{
     display: flex;
     flex-direction: row-reverse;
-    padding-top: 130px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
   }
   .card{
     width: 1000px;
@@ -142,5 +147,9 @@ ul{
 }
 h2{
   padding-right: 20px;
+}
+.attribution{
+  position: relative;
+  top: 550px;
 }
 }
