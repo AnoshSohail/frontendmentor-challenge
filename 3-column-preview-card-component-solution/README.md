@@ -22,13 +22,15 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Desktop View](https://user-images.githubusercontent.com/69400609/124808378-4dd7f400-df78-11eb-8662-fd01a89dcb81.jpg)
+![Mobile View 1](https://user-images.githubusercontent.com/69400609/124808380-4f092100-df78-11eb-8d0e-d78248b1e52f.jpg)
+![Mobile View 2](https://user-images.githubusercontent.com/69400609/124808382-4fa1b780-df78-11eb-9912-e79921f90a5d.jpg)
+![Mobile View 3](https://user-images.githubusercontent.com/69400609/124808383-503a4e00-df78-11eb-8cab-549203f71c3c.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/AnoshSohail/frontendmentor-challenge/tree/main/3-column-preview-card-component-solution]
+- Live Site URL: [https://anoshsohail.github.io/frontendmentor-challenge/3-column-preview-card-component-solution/index.html]
 
 ## My process
 
