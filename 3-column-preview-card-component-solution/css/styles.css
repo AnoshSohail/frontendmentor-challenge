@@ -98,7 +98,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
-  padding-top: 0;
+  padding-top: 10px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -126,5 +126,9 @@ p {
    border-top-right-radius: 2%;
    border-bottom-left-radius: 0%;
    width: 25%;
+ }
+
+ p{
+   padding-bottom: 70px;
  }
 }
