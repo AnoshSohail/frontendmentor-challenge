@@ -110,9 +110,6 @@ p {
    display: flex;
    padding-top: 10%;
    flex-direction: row;
-  /*  position: relative;
-   top: 50px;
-   bottom: 50px; */
  }
  .card1{
    border-top-left-radius: 2%;
@@ -122,13 +119,12 @@ p {
    width: 25%;
  }
  .card2{
-  width: 25%;
   padding: 45px;
+  width: 25%;
  }
  .card3{
    border-top-right-radius: 2%;
    border-bottom-left-radius: 0%;
-   /* padding: 45px; */
    width: 25%;
  }
 }
