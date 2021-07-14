@@ -1,0 +1,145 @@
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+}
+/* .bg1{
+  background-image: url(/images/bg-pattern-top.svg);
+  background-position: left top;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+}
+.bg2{
+  background-image: url(/images/bg-pattern-bottom.svg);
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1;
+} */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+.card {
+  background-color: white;
+  box-sizing: border-box;
+  box-shadow: black;
+  width: 100%;
+  border-radius: 5%;
+}
+.patternBG {
+  background-image: url(/images/bg-pattern-card.svg);
+  width: 100%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+  padding-top: 100px;
+  background-repeat: repeat-x;
+}
+img {
+  border-radius: 50%;
+  border: 5px solid white;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.name {
+  padding-top: 15px;
+}
+h1 {
+  font-size: 22px;
+  font-weight: 700;
+  display: inline;
+  padding-left: 100px;
+}
+span {
+  font-size: 1.5em;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  padding-left: 5px;
+}
+.centerLondon {
+  font-size: 1.2em;
+  color: hsl(0, 0%, 59%);
+  text-align: center;
+  padding-bottom: 25px;
+  padding-top: 7px;
+  font-weight: 400;
+}
+ul {
+  border-top: 1.5px solid #f1f1f1;
+  text-align: center;
+}
+li {
+  list-style: none;
+  float: left;
+  padding-left: 8px;
+  padding-right: 20px;
+}
+h2 {
+  margin-bottom: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  margin-top: 0;
+  letter-spacing: 2px;
+  color: hsl(0, 0%, 59%);
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.attribution {
+  padding-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 420px) and (max-width: 449px) {
+  .card {
+    width: 90%;
+  }
+}
+@media (min-width: 450px) and (max-width: 520px) {
+  .card {
+    width: 90%;
+  }
+  h1 {
+    padding-left: 125px;
+  }
+  li {
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 521px) and (max-width: 620px) {
+  .card {
+    width: 80%;
+  }
+  h1 {
+    padding-left: 125px;
+  }
+  li {
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .card {
+    width: 37%;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .card {
+    width: 30%;
+  }
+}
