@@ -3,14 +3,14 @@ body {
   font-family: "Kumbh Sans", sans-serif;
 }
 .bg1{
-  background-image: url(../images/bg-pattern-top.svg);
+  background-image: url(bg-pattern-top.svg);
   background-position: left top;
   background-repeat: no-repeat;
   position: relative;
   z-index: -1;
 }
 .bg2{
-  background-image: url(../images/bg-pattern-bottom.svg);
+  background-image: url(bg-pattern-bottom.svg);
   background-position: right bottom;
   background-repeat: no-repeat;
   position: relative;
@@ -30,7 +30,7 @@ body {
   border-radius: 5%;
 }
 .patternBG {
-  background-image: url(../images/bg-pattern-card.svg);
+  background-image: url(bg-pattern-card.svg);
   width: 100%;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
