@@ -30,7 +30,7 @@ body {
   border-radius: 5%;
 }
 .patternBG {
-  background-image: url(/images/bg-pattern-card.svg);
+  background-image: url(./images/bg-pattern-card.svg);
   width: 100%;
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
