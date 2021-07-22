@@ -1,8 +1,8 @@
 body {
   background-color: hsl(185, 75%, 39%);
   font-family: "Kumbh Sans", sans-serif;
-  background-image: url(/images/bg-pattern-top.svg),
-    url(/images/bg-pattern-bottom.svg);
+  background-image: url('/images/bg-pattern-top.svg'),
+    url('/images/bg-pattern-bottom.svg');
   background-position: top -600px left -380px, bottom -700px right -380px;
   background-repeat: no-repeat, no-repeat;
   overflow: hidden;
@@ -30,7 +30,7 @@ body {
     align-items: center;
   }
   .patternBG {
-    background-image: url(/images/bg-pattern-card.svg);
+    background-image: url('/images/bg-pattern-card.svg');
     width: 100%;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
