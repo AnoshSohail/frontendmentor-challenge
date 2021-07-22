@@ -1,0 +1,89 @@
+
+  .container{
+    padding-top: 100px;
+   }
+  .box {
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835); 
+    width: 100%;
+    max-width: 35rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .patternBG {
+    background-image: url(../../images/bg-pattern-card.svg);
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    padding-top: 50px;
+    background-repeat: repeat-x;
+  }
+  img {
+    border-radius: 50%;
+    border: 5px solid white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .name {
+    padding-top: 20px;
+  }
+  h1 {
+    font-size: 18px;
+    font-weight: 700;
+    display: inline;
+  }
+  span {
+    font-size: 1.5em;
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    padding-left: 5px;
+  }
+  .centerLondon {
+    font-size: 1.2em;
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 7px;
+    font-weight: 400;
+  }
+  ul {
+    border-top: 1.5px solid #f1f1f1;
+    text-align: center;
+  }
+  li {
+    list-style: none;
+    float: left;
+    padding-left: 8px;
+    padding-right: 20px;
+  }
+  h2 {
+    margin-bottom: 5px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-align: center;
+  }
+  p {
+    margin-top: 0;
+    letter-spacing: 2px;
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+  .attribution {
+    padding-top: 10px;
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: white;
+  }
