@@ -1,4 +1,14 @@
-
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: url(../../images/bg-pattern-top.svg),
+    url(../../images/bg-pattern-bottom.svg);
+  background-position: top -600px left -380px, bottom -700px right -380px;
+  background-repeat: no-repeat, no-repeat;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
   .container{
     padding-top: 100px;
    }
@@ -7,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   .card {
     background-color: white;
