@@ -54,7 +54,7 @@ I will keep learning more about flexbox
 
 ## Author
 
-- Frontend Mentor - [@@AnoshSohail](https://www.frontendmentor.io/profile/AnoshSohail)
+- Frontend Mentor - [@AnoshSohail](https://www.frontendmentor.io/profile/AnoshSohail)
 - Twitter - [@AnoshSohail2](https://twitter.com/AnoshSohail2)
 
 
