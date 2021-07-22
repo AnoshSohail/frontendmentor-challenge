@@ -1,6 +1,6 @@
-# Frontend Mentor - Stats preview card component solution
+# Frontend Mentor - Profile card component solution
 
-This is a solution to the [Stats preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/stats-preview-card-component-8JqbgoU62). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -14,30 +14,27 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Continued development](#continued-development)
 - [Author](#author)
 
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
 ### The challenge
 
- Stats preview card component
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
+- Profile card component solution
 
 ### Screenshot
 
-stats-preview-card-component-main\Screenshots\Desktop View (Screenshot).jpg
-stats-preview-card-component-main\Screenshots\Mobile View 1 (Screenshot).jpg
-stats-preview-card-component-main\Screenshots\Mobile View 2 (Screenshot).jpg
+![Desktop screenshot](https://user-images.githubusercontent.com/69400609/126705146-4b852f7c-5445-4b8d-b64d-c643897bbf0f.png)
+![mobile screenshot](https://user-images.githubusercontent.com/69400609/126705148-565bce16-44a9-4809-abf8-a093b9e2519b.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/AnoshSohail/frontendmentor-challenge/tree/main/stats-preview-card-component-main)
-- Live Site URL: (https://anoshsohail.github.io/frontendmentor-challenge/stats-preview-card-component-main/)
+- Solution URL: [https://anoshsohail.github.io/frontendmentor-challenge/profile-card-component-main/]
+- Live Site URL: [https://github.com/AnoshSohail/frontendmentor-challenge/tree/main/profile-card-component-main]
 
 ## My process
-I started with the mobile-first approach. The most easy thing to do in this challenge was the text part. But the image part gave me tough time. Glad it's done.
+
+I started with mobile first approach. Use flexbox to center the card.
 
 ### Built with
 
@@ -45,21 +42,20 @@ I started with the mobile-first approach. The most easy thing to do in this chal
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Bootstrap
 - Mobile-first workflow
 
 ### What I learned
 
-The most important thing that i learned by doing this challenge that only watching tutorials wouldn't help you to in understanding any language. Practice and making some projects is a must.
-I learned some more css properties like mix-blend-mode, opacity and flexbox. The thing i liked the most is how easy it is to center content by using flexbox(Justify-content and align-items)
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I learned more about the flexbox.
 
 ### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-I will explore more about flexbox and will use mobile-first approach in future projects.
+I will keep learning more about flexbox
 
 ## Author
 
-- Frontend Mentor - [@AnoshSohail](https://www.frontendmentor.io/profile/AnoshSohail)
+- Frontend Mentor - [@@AnoshSohail](https://www.frontendmentor.io/profile/AnoshSohail)
 - Twitter - [@AnoshSohail2](https://twitter.com/AnoshSohail2)
+
+
 
