@@ -11,9 +11,9 @@ body {
   background-image: url("../images/pattern-background-mobile.svg");
   background-repeat: no-repeat;
   background-color: hsl(225, 100%, 94%);
-  background-size: cover;
-  background-position: 10px -400px;
   height: 100vh;
+  background-size: 100%;
+
 }
 main {
   background-color: #fff;
@@ -114,4 +114,12 @@ color: hsl(224, 23%, 55%);
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media(min-width:500px){
+  body{
+    background-image: url("../images/pattern-background-desktop.svg");
+ background-repeat: no-repeat;
+
+  }
 }
