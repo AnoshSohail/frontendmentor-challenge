@@ -1,0 +1,103 @@
+* {
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+    overflow: hidden;
+}
+body {
+  background-image: url("../images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+  background-size: cover;
+  background-position: 10px -400px;
+  height: 100vh;
+}
+main {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 3%;
+  margin-bottom: 3rem;
+  box-shadow: 0px 10px 20px rgb(185, 184, 184);
+  max-width: 25rem;
+  
+}
+
+.illustration {
+  display: block;
+  max-width: 120%;
+  height: 150px;
+  background: url("../images/illustration-hero.svg");
+  background-repeat: no-repeat;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+h1 {
+  text-align: center;
+  font-weight: 900;
+  padding-top: 25px;
+}
+.info {
+  font-size: 16px;
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  padding-top: 20px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.price {
+  width: 90%;
+  background-color: hsl(225, 100%, 98%);
+  margin: 0.5rem auto 1.5rem;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+}
+.pricePlan {
+  padding-left: 10px;
+}
+h2 {
+  display: inline;
+  font-size: 1em;
+}
+.changeLink {
+  padding-left: 40px;
+  padding-top: 10px;
+}
+.paymentButton {
+  padding: 1em;
+  width: 85%;
+  border: none;
+  border-radius: 5px;
+  background-color: #382ae1;
+  font-weight: 500;
+  color: #fff;
+margin-left: 25px;
+box-shadow: 0px 20px 30px rgb(185, 184, 184);
+}
+.cancelOrder{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-weight: 700;
+}
+.cancelOrder > a{
+text-decoration: none;
+color: hsl(224, 23%, 55%);
+
+}
+/*TODO: ADD CURSOR:POINTER FOR INACTIVE ELEMENT */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
