@@ -1,0 +1,135 @@
+
+* {
+  font-family: "Spartan", sans-serif;
+}
+body{
+  font-size: 15px;
+  background-image: url('../images/bg-pattern-top-mobile.svg'), url('../images/bg-pattern-bottom-mobile.svg');
+  background-position: top left, bottom -750px right;
+  background-repeat: no-repeat;
+  min-width: 100%;
+}
+main{
+  overflow: hidden;
+}
+h1 {
+  font-size: 2.5em;
+  padding-top: 80px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 700;
+  text-align: center;
+}
+
+.aboutUs {
+  text-align: center;
+  color: hsl(303, 10%, 53%);
+}
+.starRating {
+  background-color: hsl(300, 24%, 96%);
+  margin-bottom: 20px;
+  color: hsl(300, 43%, 22%);
+  font-weight: 500;
+  text-align: center;
+  padding: 15px 2px 2px 2px;
+  border: none;
+  border-radius: 0.3rem;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.starRating > p {
+  margin-top: 8px;
+}
+.clientReview {
+  background-color: hsl(300, 43%, 22%);
+  color: hsl(300, 24%, 96%);
+  margin-bottom: 20px;
+  border-radius: 0.3rem;
+  padding: 30px;
+  text-align: left;
+  line-height: 1.5rem;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.clientImage {
+  border-radius: 50%;
+  height: 40px;
+  float: left;
+  margin-top: 15px;
+}
+.clientInfo {
+  padding-left: 10px;
+}
+ul > li {
+  list-style: none;
+  padding-left: 10px;
+}
+
+li:nth-child(2) {
+  color: hsl(333, 80%, 67%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  overflow: hidden;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media(min-width:991px) and (max-width:1440px){
+  body{
+    background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
+  background-position: top left, bottom 1px right -200px;
+  background-repeat: no-repeat;
+  }
+
+  h1{
+    text-align: left;
+    width: 30%;
+    padding-left: 80px;
+  }
+  .aboutUs{
+    text-align: left;
+    width: 30%;
+    padding-left: 80px;
+    
+  }
+  .rating{
+    display: flex;
+    flex-direction: column;
+    transform: translate(650px,-200px);
+  }
+.starRating:nth-child(2){
+  margin-left: 40px;
+}
+.starRating:nth-child(3){
+  margin-left: 80px;
+ 
+}
+  .starRating{
+    width: 40%;
+  }
+  .starRating > p{
+    display: inline-block;
+    padding-left: 20px;
+  }
+  .reviewSection{
+    display: flex;
+  
+  }
+  .reviewSection > .clientReview:nth-child(1){
+    transform: translate(2px,-150px);
+  }
+  .reviewSection > .clientReview:nth-child(2){
+    transform: translate(2px,-130px);
+  }
+  .clientReview:nth-child(3){
+    transform: translate(2px,-110px);
+    margin-right: 25px;
+  }
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    transform: translate(2px,-110px);
+  }
+}
