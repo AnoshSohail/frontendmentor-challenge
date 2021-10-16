@@ -107,7 +107,8 @@ li:nth-child(2) {
  
 }
   .starRating{
-    width: 40%;
+    width: 37%;
+    padding-left: 0;
   }
   .starRating > p{
     display: inline-block;
