@@ -76,7 +76,7 @@ li:nth-child(2) {
   color: hsl(228, 45%, 44%);
 }
 
-@media(min-width:991px) and (max-width:1440px){
+@media(min-width:991px){
   body{
     background-image: url('../images/bg-pattern-top-desktop.svg'), url('../images/bg-pattern-bottom-desktop.svg');
   background-position: top left, bottom 1px right -200px;
@@ -97,7 +97,7 @@ li:nth-child(2) {
   .rating{
     display: flex;
     flex-direction: column;
-    transform: translate(650px,-200px);
+    transform: translate(490px,-200px);
   }
 .starRating:nth-child(2){
   margin-left: 40px;
@@ -131,5 +131,19 @@ li:nth-child(2) {
     font-size: 11px;
     text-align: center;
     transform: translate(2px,-110px);
+  }
+}
+
+@media(min-width:1170px){
+
+  .rating{
+    transform: translate(600px,-200px);
+  }
+}
+
+@media(min-width:1170px){
+
+  .rating{
+    transform: translate(650px,-200px);
   }
 }
