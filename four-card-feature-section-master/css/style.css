@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 98%);
+}
+main {
+  margin-top: 70px;
+
+}
+h1 {
+  font-weight: 200;
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+}
+h2 {
+  color: hsl(234, 12%, 34%);
+  font-size: 1.9rem;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 5px;
+  margin-left: 2px;
+  margin-right: 2px;
+ }
+.aboutUs {
+  color: hsl(229, 6%, 66%);
+  text-align: center;
+  
+  margin: auto;
+}
+.card {
+  box-shadow: 5px 5px 20px hsl(229, 6%, 66%);
+  background-color: #fff;
+  text-align: left;
+  padding: 20px 20px 30px 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  border-radius: 0.5rem;
+  
+}
+h3 {
+  color: hsl(234, 12%, 34%);
+  padding-bottom: 7px;
+}
+.fourCards {
+  margin-top: 50px;
+}
+.card:nth-child(1) {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.card:nth-child(2) {
+  border-top: 3px solid hsl(0, 78%, 62%);
+}
+.card:nth-child(3) {
+  border-top: 3px solid hsl(34, 97%, 64%);
+}
+.card:nth-child(4) {
+  border-top: 3px solid hsl(212, 86%, 64%);
+}
+.toolInfo {
+  line-height: 1.5rem;
+  color: hsl(229, 6%, 66%);
+}
+.icon {
+ display: flex;
+ justify-content: flex-end;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media(min-width:991px){
+  .card{
+    max-width: 20%;
+  }
+      .card:nth-child(1){
+        transform: translate(200px, 200px);
+      }
+      .card:nth-child(2){
+        transform: translate(540px, -140px);
+      }
+      .card:nth-child(3){
+        transform: translate(540px, -130px);
+      }
+      .card:nth-child(4){
+        transform: translate(880px, -450px);
+      }
+}
