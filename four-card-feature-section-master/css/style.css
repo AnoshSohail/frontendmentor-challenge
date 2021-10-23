@@ -74,7 +74,11 @@ h3 {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
+@media(min-width: 650px){
+  main{
+    display: grid;justify-items: center;
+  }
+}
 @media (min-width: 991px) {
   .aboutUs{
     width: 35%;
@@ -91,7 +95,7 @@ h3 {
     margin-right: 20px;
   }
   .card {
-    height: 25vh;
+    height: 30vh;
     width: 85%;
   }
 h3 , p {
@@ -120,9 +124,8 @@ h3 , p {
     grid-area: 2/3;
     margin-top: -30%;
   }
-
-  .icon {
+  .icon{
     position: relative;
-    top: 60px;
+    top: 27px;
   }
 }
