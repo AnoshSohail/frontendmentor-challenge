@@ -14,8 +14,8 @@ main {
   width: 80%;
   max-width: 300px;
   justify-self: center;
-  padding-top: 50px;
-  margin-bottom: 50px;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 h1 {
   color: hsl(179, 62%, 43%);
