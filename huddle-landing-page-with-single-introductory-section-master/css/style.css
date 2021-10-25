@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-image: url("../images/bg-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(257, 40%, 49%);
+}
+.logo {
+  width: 100px;
+  height: 100px;
+  padding-left: 40px;
+}
+
+main {
+  display: grid;
+}
+.illustration {
+  width: 290px;
+  height: 200px;
+  justify-self: center;
+  margin-bottom: 20px;
+}
+h1 {
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding: 20px 30px 5px 30px;
+}
+p {
+  color: white;
+  font-weight: 400;
+  text-align: center;
+  padding: 5px 35px;
+  opacity: 0.8;
+}
+button {
+  padding: 0.8em;
+  width: 50%;
+  max-width: 250px;
+  border: none;
+  border-radius: 100px;
+  background-color: white;
+  color: hsl(257, 40%, 49%);
+  justify-self: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+}
+.socialIcon {
+  display: flex;
+  margin-left: 10px;
+  justify-content: center;
+}
+.facebookLogo {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 6%;
+  max-width: 25px;
+  justify-self: center;
+  margin-right: 10px;
+}
+.twitterLogo {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 6%;
+  max-width: 25px;
+  justify-self: center;
+  margin-right: 10px;
+}
+.instagramLogo {
+  border: 1px solid #fff;
+  border-radius: 100%;
+  width: 6%;
+  max-width: 25px;
+  justify-self: center;
+}
+.fa-facebook {
+  color: white;
+  padding-left: 7px;
+  cursor: pointer;
+}
+.fa-twitter {
+  color: white;
+  padding-left: 4.5px;
+  cursor: pointer;
+}
+.fa-instagram {
+  color: white;
+  padding-left: 4px;
+  cursor: pointer;
+}
+.fa:hover {
+  color: hsl(300, 69%, 71%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: black;
+}
+@media (min-width: 601px) {
+  body {
+    background-image: url("../images/bg-desktop.svg");
+    background-size: cover;
+  }
+  p {
+    padding: 50px 30px 50px 30px;
+  }
+}
+@media (min-width: 992px) {
+  body {
+    background-image: url("../images/bg-desktop.svg");
+    background-repeat: no-repeat;
+  }
+  main {
+    grid-template-rows: 1fr 50% 20%;
+    grid-template-columns: 1fr 50% 10%;
+  }
+  .illustration {
+    margin-left: 40px;
+    width: 400px;
+    height: 280px;
+  }
+  h1 {
+    grid-area: 1/2;
+    text-align: left;
+    width: 45%;
+    font-weight: 700;
+  }
+  button {
+    grid-area: 1/2;
+    max-height: 45px;
+    margin-top: 190px;
+    justify-self: start;
+    margin-left: 35px;
+    width: 25%;
+    font-weight: 700;
+  }
+
+  p {
+    grid-area: 1/2;
+    padding-top: 100px;
+    text-align: left;
+  }
+  .socialIcon {
+    grid-area: 3/2;
+    justify-self: right;
+    margin-right: 20px;
+    height: 50%;
+    max-height: 50px;
+    width: 40%;
+    max-width: 100px;
+    margin-bottom: 20px;
+  }
+  .facebookLogo {
+    width: 25%;
+    max-width: 200px;
+    margin-bottom: 8px;
+  }
+  .twitterLogo {
+    width: 25%;
+    max-width: 200px;
+    margin-bottom: 8px;
+  }
+  .instagramLogo {
+    width: 25%;
+    max-width: 200px;
+    margin-bottom: 8px;
+  }
+  .fa-instagram {
+    padding-left: 5px;
+  }
+  .attribution {
+    grid-area: 2/3;
+  }
+}
