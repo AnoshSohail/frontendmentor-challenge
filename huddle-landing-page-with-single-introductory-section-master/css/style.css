@@ -9,10 +9,11 @@ body {
   background-size: contain;
   background-color: hsl(257, 40%, 49%);
 }
-.logo {
+header > .logo {
   width: 100px;
   height: 100px;
   padding-left: 40px;
+  cursor: pointer;
 }
 
 main {
@@ -48,8 +49,10 @@ button {
   background-color: white;
   color: hsl(257, 40%, 49%);
   justify-self: center;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 30px;
+  cursor: pointer;
+  box-shadow: 1px 1px 15px rgb(37, 33, 33);
 }
 button:hover {
   background-color: hsl(300, 69%, 71%);
@@ -116,14 +119,14 @@ button:hover {
     padding: 50px 30px 50px 30px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 991px) {
   body {
     background-image: url("../images/bg-desktop.svg");
     background-repeat: no-repeat;
   }
   main {
     grid-template-rows: 1fr 50% 20%;
-    grid-template-columns: 1fr 50% 10%;
+    grid-template-columns: 1fr 60% 10%;
   }
   .illustration {
     margin-left: 40px;
@@ -134,22 +137,25 @@ button:hover {
     grid-area: 1/2;
     text-align: left;
     width: 45%;
-    font-weight: 700;
+    font-weight: 600;
+    height: 20%;
   }
   button {
     grid-area: 1/2;
     max-height: 45px;
-    margin-top: 190px;
+    margin-top: 210px;
     justify-self: start;
     margin-left: 35px;
     width: 25%;
     font-weight: 700;
   }
-
   p {
     grid-area: 1/2;
     padding-top: 100px;
     text-align: left;
+    height: 20%;
+    max-height: 100px;
+    width: 67%;
   }
   .socialIcon {
     grid-area: 3/2;
@@ -180,6 +186,7 @@ button:hover {
     padding-left: 5px;
   }
   .attribution {
+    padding-bottom: 0;
     grid-area: 2/3;
   }
 }
