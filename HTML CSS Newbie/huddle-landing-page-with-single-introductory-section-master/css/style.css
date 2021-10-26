@@ -11,7 +11,7 @@ body {
 }
 header > .logo {
   width: 100px;
-  height: 100px;
+  height: 90px;
   padding-left: 40px;
   cursor: pointer;
 }
@@ -131,7 +131,7 @@ button:hover {
   .illustration {
     margin-left: 40px;
     width: 400px;
-    height: 280px;
+    height: 380px;
   }
   h1 {
     grid-area: 1/2;
@@ -158,14 +158,15 @@ button:hover {
     width: 67%;
   }
   .socialIcon {
-    grid-area: 3/2;
+    grid-area: 2/2;
     justify-self: right;
     margin-right: 20px;
-    height: 50%;
-    max-height: 50px;
+    height: 40%;
+    max-height: 35px;
     width: 40%;
     max-width: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 110px;
+    align-self: end;
   }
   .facebookLogo {
     width: 25%;
@@ -187,6 +188,6 @@ button:hover {
   }
   .attribution {
     padding-bottom: 0;
-    grid-area: 2/3;
+    grid-area: 2/2;
   }
 }
