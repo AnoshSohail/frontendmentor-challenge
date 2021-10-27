@@ -10,8 +10,8 @@ body {
   background-color: hsl(257, 40%, 49%);
 }
 header > .logo {
-  width: 100px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   padding-left: 40px;
   cursor: pointer;
 }
@@ -124,23 +124,28 @@ button:hover {
     background-image: url("../images/bg-desktop.svg");
     background-repeat: no-repeat;
   }
+  header{
+    height: 90%;
+    max-height: 120px;
+  }
   main {
-    grid-template-rows: 1fr 50%;
+    grid-template-rows: 1fr 20%;
     grid-template-columns: 1fr 60%;
   }
   .illustration {
     margin-top: 30px;
     margin-left: 40px;
-    width: 440px;
-    height: 380px;
+    width: 530px;
+    height: 440px;
   }
   h1 {
     margin-top: 45px;
     grid-area: 1/2;
     text-align: left;
-    width: 45%;
+    width: 55%;
     font-weight: 600;
     height: 20%;
+    font-size: 1.8rem;
   }
   .huddle-info {
     margin-top: 55px;
@@ -154,23 +159,20 @@ button:hover {
   button {
     grid-area: 1/2;
     max-height: 45px;
-    margin-top: 240px;
+    margin-top: 260px;
     justify-self: start;
     margin-left: 35px;
     width: 25%;
     font-weight: 700;
   }
-  
+
   .socialIcon {
-    grid-area: 2/2;
-    justify-self: right;
     margin-right: 20px;
     height: 40%;
     max-height: 35px;
     width: 40%;
     max-width: 100px;
-    margin-bottom: 110px;
-    align-self: end;
+    margin-left: 90%;
   }
   .facebookLogo {
     width: 25%;
@@ -192,6 +194,10 @@ button:hover {
   }
   .attribution {
     padding-bottom: 0;
-    grid-area: 2/2;
+    padding-top: 0;
+  }
+  footer {
+    height: 20%;
+    max-height: 10px;
   }
 }
