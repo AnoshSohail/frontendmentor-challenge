@@ -108,9 +108,12 @@ p {
   bottom: 28px;
   z-index: 2;
 }
-.share_btn:focus {
+/* .share_btn:focus {
   background-color: hsl(214, 17%, 51%);
 }
+.button_svg:focus {
+  fill: gold;
+} */
 .share_activated {
   width: 100%;
   padding-top: 20px;
@@ -132,11 +135,11 @@ p {
 .share_activated p {
   float: left;
 }
-.socialmedia_icon {
-  margin-left: 10px;
+.socialIcons {
+  margin-left: 12px;
   float: left;
-  width: 10%;
-  height: 37%;
+  width: 7%;
+  height: 40%;
 }
 .attribution {
   padding-top: 10px;

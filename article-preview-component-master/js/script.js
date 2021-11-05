@@ -51,3 +51,7 @@ const shareIcons = document.querySelector(".share_activated");
 shareBtn.addEventListener("click", function () {
   shareIcons.classList.toggle("active");
 });
+
+function changeColor() {
+  document.getElementById("share_btn").style.backgroundColor = "Red";
+}
