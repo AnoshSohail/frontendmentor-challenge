@@ -1,9 +1,174 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Kumbh Sans", sans-serif;
 }
-body{
-    background-color: hsl(273, 75%, 66%);
+body {
+  background-color: hsl(273, 75%, 66%);
+  font-size: 12px;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+main {
+  display: grid;
+  position: relative;
+  grid-template-rows: 40%;
+  margin: 0 auto;
+  border: none;
+  border-radius: 1.5rem;
+  margin-top: 120px;
+  box-shadow: 2px 1px 15px #202020;
+  background-color: #fff;
+  width: 80%;
+  max-width: 300px;
+  min-width: 300px;
+  height: 200%;
+  min-height: 500px;
+  padding-bottom: 30px;
+  max-height: 450px;
+}
+.boxImg {
+  display: none;
+  grid-area: 1/1;
+}
+h1 {
+  font-weight: 700;
+  padding-top: 120px;
+  grid-area: 1/1;
+  margin-bottom: 0;
+  height: 100px;
+  font-size: 2rem;
+  text-align: center;
+}
+details {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+summary,
+p {
+  padding: 10px;
+  color: hsl(240, 6%, 50%);
+}
+summary:focus {
+  font-weight: 700;
+  color: #000;
+}
+details > summary {
+  margin-top: 0;
+  padding-top: 0;
+  list-style: none;
+}
+summary::-webkit-details-marker {
+  display: none;
+}
+summary::after {
+  content: url(../images/icon-arrow-down.svg);
+  position: absolute;
+  display: inline-block;
+  right: 20px;
+}
+details[open] summary::after {
+  transform: rotate(180deg);
+}
+.womenOnline_mobile {
+  content: url("../images/illustration-woman-online-mobile.svg");
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+  position: relative;
+  top: -115px;
+  left: 50px;
+  grid-area: 1/1;
+}
+.pattern_mobile {
+  content: url("../images/bg-pattern-mobile.svg");
+  position: relative;
+  top: -5px;
+  left: 20px;
+  grid-area: 1/1;
+}
+
+.womenOnline_desktop {
+  display: none;
+  visibility: hidden;
+}
+.box_desktop {
+  display: none;
+  visibility: hidden;
+}
+.pattern_desktop {
+  display: none;
+  visibility: hidden;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 991px) {
+  main {
+    grid-template-columns: 45% 1fr;
+    grid-template-rows: 35%;
+    max-width: 640px;
+    min-height: 400px;
+  }
+  h1 {
+    padding-top: 50px;
+    grid-area: 1/2;
+    text-align: left;
+    padding-left: 30px;
+  }
+  .womenOnline_mobile {
+    display: none;
+    visibility: hidden;
+  }
+  .pattern_mobile {
+    display: none;
+    visibility: hidden;
+  }
+  .womenOnline_desktop {
+    display: grid;
+    visibility: visible;
+    /* content: url("../images/illustration-woman-online-desktop.svg"); */
+    /* background-image: url('../images/illustration-woman-online-desktop.svg');
+    background-repeat: no-repeat; */
+    width: 350px;
+    object-fit: contain;
+    overflow: hidden;
+    height: 350px;
+    position: relative;
+    top: 80px;
+    left: 70px;
+    margin-top: -1.5rem;
+    margin-left: -10.5rem;
+  }
+  /* .box_desktop{
+    content: url('../images/illustration-box-desktop.svg');
+  } */
+  .pattern_desktop {
+    visibility: visible;
+    display: grid;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -150px;
+    left: -240px;
+    background: url('../images/bg-pattern-desktop.svg');
+    overflow: hidden;
+    /* content: url("../images/bg-pattern-desktop.svg"); */
+    background-position: -72rem 58%;
+  }
+  .faq {
+    grid-area: 2/2;
+    justify-items: left;
+  }
+  summary::after {
+    right: 40px;
+  }
+  details {
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+}
