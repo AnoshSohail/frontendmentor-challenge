@@ -36,7 +36,7 @@ main {
   border-top-right-radius: 0.5rem;
 }
 .details {
-  padding-top: 40px;
+  padding-top: 35px;
   padding-bottom: 30px;
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
@@ -109,7 +109,7 @@ p {
   cursor: pointer;
   position: absolute;
   right: 20px;
-  bottom: 28px;
+  bottom: 25px;
   z-index: 2;
 }
 .share_btn:focus {
@@ -121,7 +121,7 @@ button:focus {
 
 .share_activated {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 25px;
   height: 15%;
   border: none;
   border-bottom-left-radius: 0.5rem;
