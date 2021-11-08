@@ -4,13 +4,14 @@
   box-sizing: border-box;
   font-family: "Manrope", sans-serif;
 }
+html {
+  overflow: hidden;
+}
 body {
   background-color: hsl(210, 46%, 95%);
-  margin-top: 20px;
+  margin-top: 100px;
 }
 main {
-  display: flex;
-  flex-direction: column;
   width: 100%;
   margin: 0 auto;
   max-width: 320px;
@@ -21,7 +22,10 @@ main {
   position: relative;
   border-bottom-left-radius: 0.5rem;
 }
-
+.card {
+  display: flex;
+  flex-direction: column;
+}
 .card_img > img {
   width: 100%;
   height: 165px;
@@ -108,12 +112,13 @@ p {
   bottom: 28px;
   z-index: 2;
 }
-/* .share_btn:focus {
+.share_btn:focus {
   background-color: hsl(214, 17%, 51%);
 }
-.button_svg:focus {
-  fill: gold;
-} */
+button:focus {
+  fill: hsl(210, 46%, 95%);
+}
+
 .share_activated {
   width: 100%;
   padding-top: 20px;
@@ -140,6 +145,20 @@ p {
   float: left;
   width: 7%;
   height: 40%;
+  fill: blue;
+}
+.sr-only {
+  border: 0 !important;
+  clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+  -webkit-clip-path: inset(50%) !important;
+  clip-path: inset(50%) !important; /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  white-space: nowrap !important; /* 3 */
 }
 .attribution {
   padding-top: 10px;
@@ -148,4 +167,54 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 992px) {
+  main {
+    max-width: 800px;
+  }
+  .card {
+    flex-direction: row;
+  }
+  .card_img > img {
+    min-width: 300px;
+    min-height: 335px;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0;
+  }
+  .details {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  h1 {
+    font-size: 1.25rem;
+  }
+  .share_btn {
+    bottom: 50px;
+  }
+  .share_activated {
+    width: 30%;
+    right: -80px;
+    top: 180px;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+  }
+  .share_activated {
+    padding-left: 10px;
+    padding-top: 15px;
+  }
+  .socialIcons {
+    margin-right: 5px;
+  }
+  .share_activated > .speechBubbleNotch {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid hsl(217, 19%, 35%);
+    position: absolute;
+    top: 15px;
+    left: 100px;
+    z-index: -1;
+  }
 }
