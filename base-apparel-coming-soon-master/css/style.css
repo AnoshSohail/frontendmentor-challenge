@@ -120,7 +120,7 @@ footer {
     height: 0;
     padding-top: 0;
     margin-right: 0;
-    padding-left: 50px;
+    padding-left: 120px;
   }
   svg {
     margin-top: 30px;
@@ -131,10 +131,7 @@ footer {
   .container {
     flex-direction: row-reverse;
     width: 100%;
-    padding-left: 40px;
-  }
-  .details {
-    padding-right: 70px;
+    padding-left: 100px;
   }
   .heroImgMobile {
     display: none;
@@ -142,23 +139,24 @@ footer {
   .heroImgDesktop {
     display: block;
     padding-top: 0;
-    width: 55%;
+    height: 100vh;
     background-image: url("../images/hero-desktop.jpg");
   }
   h1 {
     text-align: left;
     padding-top: 120px;
+    width: 50%;
   }
   p {
     text-align: left;
-    width: 80%;
+    width: 60%;
   }
   form {
     margin-left: 20px;
-    width: 80%;
+    width: 45%;
   }
   input {
     margin-left: 0;
-    width: 90%;
+    width: 100%;
   }
 }
