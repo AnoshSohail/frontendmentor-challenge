@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  background-color: hsl(0, 100%, 98%);
+}
+
+header {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.container {
+  display: flex;
+
+  flex-direction: column;
+  width: 100%;
+}
+.heroImgMobile {
+  padding-top: 30px;
+}
+.heroImgDesktop {
+  display: none;
+}
+.details {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+h1 {
+  font-weight: 300;
+  font-size: 2.7rem;
+  text-transform: uppercase;
+  color: hsl(0, 36%, 70%);
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  width: 100%;
+  letter-spacing: 0.8rem;
+}
+span {
+  color: #000;
+  font-weight: 600;
+}
+p {
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: center;
+  color: hsl(0, 36%, 70%);
+  font-weight: 400;
+  line-height: 1.7rem;
+  width: 100%;
+  padding-bottom: 25px;
+}
+form {
+  position: relative;
+  width: 85%;
+  margin-left: 30px;
+}
+input {
+  background-color: transparent;
+  padding: 12px;
+  border: 1px solid hsl(0, 36%, 70%);
+  width: 100%;
+  margin-right: 20px;
+  font-size: 16px;
+  border-radius: 50px;
+}
+::placeholder {
+  color: hsl(0, 36%, 70%);
+  padding-left: 10px;
+}
+button {
+  background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  width: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 2px 2px 12px grey;
+}
+#error {
+  visibility: hidden;
+}
+.errorIcon {
+  position: absolute;
+  top: 10px;
+  right: 70px;
+}
+.errorMessage {
+  color: hsl(0, 93%, 68%);
+  font-size: 0.8rem;
+  text-align: left;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 750px) {
+  header {
+    width: 0;
+    height: 0;
+    padding-top: 0;
+    margin-right: 0;
+    padding-left: 50px;
+  }
+  svg {
+    margin-top: 30px;
+  }
+  body {
+    background-image: url("../images/bg-pattern-desktop.svg");
+  }
+  .container {
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-left: 40px;
+  }
+  .details {
+    padding-right: 70px;
+  }
+  .heroImgMobile {
+    display: none;
+  }
+  .heroImgDesktop {
+    display: block;
+    padding-top: 0;
+    width: 55%;
+    background-image: url("../images/hero-desktop.jpg");
+  }
+  h1 {
+    text-align: left;
+    padding-top: 120px;
+  }
+  p {
+    text-align: left;
+    width: 100%;
+  }
+  form {
+    margin-left: 20px;
+    width: 100%;
+  }
+  input {
+    margin-left: 0;
+  }
+}
