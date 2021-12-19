@@ -3,7 +3,6 @@ function validation() {
   let lName = document.getElementById("lName").value;
   let email = document.getElementById("email").value;
   let password = document.getElementById("password").value;
-  let errorIcon = document.getElementById("errorIcon");
   let regex =
     /^([_\-\.0-9a-zA-Z]+)@([_\-\.0-9a-zA-Z0-9a-zA-Z]+)\.([a-zA-z]){2,7}$/;
   let str = email;
@@ -12,7 +11,7 @@ function validation() {
       "First Name cannot be empty";
     document.getElementById("fName").style.border =
       "2px solid hsl(0, 100%, 74%)";
-    document.getElementById("errorIcon").style.display = "inline";
+    document.getElementById("fName").classList.add("errorIcon");
   }
   if (lName == "") {
     document.getElementById("lastName-error").innerHTML =

@@ -99,11 +99,11 @@ input {
   width: 85%;
   padding-left: 20px;
 }
-#errorIcon {
+.errorIcon {
   position: absolute;
   top: 35px;
   right: 50px;
-  display: none;
+  /* display: none; */
   content: url("../images/icon-error.svg");
 }
 small {
