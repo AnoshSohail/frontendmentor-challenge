@@ -18,6 +18,7 @@ function validation() {
       "Last Name cannot be empty";
     document.getElementById("lName").style.border =
       "2px solid hsl(0, 100%, 74%)";
+    // document.getElementById("lName").classList.add("errorIcon");
   }
   if (!regex.test(str)) {
     document.getElementById("email-error").innerHTML =
@@ -26,12 +27,14 @@ function validation() {
       "2px solid hsl(0, 100%, 74%)";
     document.getElementById("email").style.color = " hsl(0, 100%, 74%)";
     document.getElementById("email").style.fontWeight = "600";
+    // document.getElementById("email").classList.add("errorIcon");
   }
   if (password == "") {
     document.getElementById("password-error").innerHTML =
       "password cannot be empty";
     document.getElementById("password").style.border =
       "2px solid hsl(0, 100%, 74%)";
+    // document.getElementById("password").classList.add("errorIcon");
   }
   return false;
 }
