@@ -27,14 +27,30 @@
         Try it free 7 days <span class="trialSpan"> then $20/mo. thereafter </span>
       </button>
       <form novalidate onsubmit="return validation()" id="form">
-        <input type="text" id="fName" placeholder="First Name" autocomplete="off">
-        <small id="firstName-error"></small>
-        <input type="text" id="lName" placeholder="Last Name" autocomplete="off">
-        <small id="lastName-error"></small>
-        <input type="email" name="" id="email" placeholder="Email Address" autocomplete="off">
-        <small id="email-error"></small>
-        <input type="password" name="" id="password" placeholder="Password">
-        <small id="password-error"></small>
+        <div class="test">
+          <input type="text" id="fName" placeholder="First Name" autocomplete="off">
+          <!-- <img src="./images/icon-error.svg" alt="" class="fName-errorIcon"> -->
+          <div class="fName-errorIcon"></div>
+          <small id="firstName-error"></small>
+        </div>
+        <div class="test">
+          <input type="text" id="lName" placeholder="Last Name" autocomplete="off">
+          <!-- <img src="./images/icon-error.svg" alt="" class="lName-errorIcon"> -->
+          <div class="lName-errorIcon"></div>
+          <small id="lastName-error"></small>
+        </div>
+        <div class="test">
+          <input type="email" name="" id="email" placeholder="Email Address" autocomplete="off">
+          <!-- <img src="./images/icon-error.svg" alt="" class="email-errorIcon"> -->
+          <div class="email-errorIcon"></div>
+          <small id="email-error"></small>
+        </div>
+        <div class="test">
+          <input type="password" name="" id="password" placeholder="Password">
+          <!-- <img src="./images/icon-error.svg" alt="" class="password-errorIcon"> -->
+          <div class="password-errorIcon"></div>
+          <small id="password-error"></small>
+        </div>
         <button class="freeTrial" id="btn"> Claim your free trial
         </button>
         <p class="info"> By clicking the button, you are agreeing to our <span class="termsAndServices"> Terms and
