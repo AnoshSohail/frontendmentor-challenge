@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: hsl(226, 43%, 10%);
+}
+main {
+  display: grid;
+  place-items: center;
+  place-content: center;
+  gap: 0.7rem;
+}
+.container {
+  background-color: hsl(235, 46%, 20%);
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.reportCard {
+  background-color: hsl(246, 80%, 60%);
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+.userImg {
+  height: 20%;
+  width: 20%;
+  max-width: 90px;
+  max-height: 90px;
+  border: 3px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.userReport {
+  margin-top: 5px;
+}
+h1 {
+  display: inline;
+  font-size: 1rem;
+  color: hsl(236, 100%, 87%);
+  font-weight: 300;
+}
+.userName {
+  padding-top: 5px;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: white;
+}
+.timePeriod {
+  width: 100%;
+  min-height: 40px;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  border-radius: 10px;
+}
+button {
+  color: hsl(235, 45%, 61%);
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+  font-weight: 400;
+  cursor: pointer;
+}
+button:focus {
+  color: hsl(236, 100%, 87%);
+}
+button:hover {
+  color: hsl(236, 100%, 87%);
+}
+ul > li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+.trackingContainer {
+  background-color: hsl(235, 46%, 20%);
+  /* padding: 20px 20px 0 20px; */
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+}
+.trackingContainer:hover {
+  background-color: hsl(235, 45%, 61%);
+}
+.trackTime {
+  position: relative;
+  background-color: hsl(15, 100%, 70%);
+  background-image: url("../images/icon-work.svg");
+  background-position: top -17px right 5px;
+  background-repeat: no-repeat;
+  width: 100%;
+  max-width: 320px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding-top: 35px;
+  border-radius: 10px;
+}
+.trackTime:nth-child(3) {
+  background-color: hsl(195, 74%, 62%);
+  background-image: url("../images/icon-play.svg");
+
+  /* height: 140px; */
+}
+.trackTime:nth-child(4) {
+  background-color: hsl(348, 100%, 68%);
+  background-image: url("../images/icon-study.svg");
+}
+.trackTime:nth-child(5) {
+  background-color: hsl(145, 58%, 55%);
+  background-image: url("../images/icon-exercise.svg");
+  background-position: top -1px right 5px;
+}
+.trackTime:nth-child(6) {
+  background-color: hsl(264, 64%, 52%);
+  background-image: url("../images/icon-social.svg");
+}
+.trackTime:nth-child(7) {
+  background-color: hsl(43, 84%, 65%);
+  background-image: url("../images/icon-self-care.svg");
+}
+svg {
+  position: absolute;
+  right: 15px;
+  top: 54px;
+  /* z-index: -1; */
+}
+svg,
+path:hover {
+  fill: white !important;
+}
+.ellipsis {
+  position: absolute;
+  top: 55px;
+  right: 20px;
+  cursor: pointer;
+}
+.ellipsis {
+  fill: crimson;
+}
+h2 {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 15px;
+  /* padding-bottom: 10px; */
+}
+#currentWork,
+#currentPlay,
+#currentStudy,
+#currentExercise,
+#currentSocial,
+#currentSelfCare {
+  font-size: 1.8rem;
+  /* padding-bottom: 5px; */
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+#previousWork,
+#previousPlay,
+#previousStudy,
+#previousExercise,
+#previousSocial,
+#previousSelfCare {
+  font-size: 0.9rem;
+  color: hsl(236, 100%, 87%);
+  position: absolute;
+  right: 15px;
+  bottom: 40px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: white;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (min-width: 991px) {
+  body {
+    margin: auto;
+  }
+  main {
+    padding-top: 100px;
+    align-self: center;
+    align-items: stretch;
+    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-rows: 50% 50%;
+  }
+  .container {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 0;
+    width: 100%;
+    max-height: 400px;
+  }
+  .reportCard {
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    padding-bottom: 40px;
+    gap: 1.2rem;
+  }
+  .userImg {
+    height: 100px;
+    width: 70px;
+  }
+  ul > li {
+    display: block;
+    padding-bottom: 10px;
+  }
+  .timePeriod {
+    text-align: left;
+  }
+  .trackTime {
+    margin-top: 0;
+    height: 100px;
+  }
+  .trackingContainer {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    padding-bottom: 30px;
+    height: 152px;
+    /* padding-bottom: 33px; */
+  }
+  .trackTime:nth-child(5) {
+    grid-column-start: 2;
+    grid-column-end: 2;
+  }
+  p {
+    top: 140px;
+    left: 15px;
+  }
+  h2 {
+    margin-bottom: 20px;
+  }
+}

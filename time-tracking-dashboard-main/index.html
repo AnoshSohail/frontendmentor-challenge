@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+  <main>
+    <div class="container">
+      <div class="reportCard">
+        <img src="./images/image-jeremy.png" alt="Jeremy Robson" class="userImg">
+        <ul class="userReport">
+          <h1> Report for </h1>
+          <p class="userName"> Jeremy Robson </p>
+        </ul>
+      </div>
+      <div class="timePeriod">
+        <ul>
+          <li>
+            <button id="daily"> Daily </button>
+          </li>
+          <li>
+            <button id="weekly"> Weekly</button>
+          </li>
+          <li>
+            <button id="monthly"> Monthly </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="trackTime">
+      <div class="trackingContainer">
+        <h2 id="titleWork"></h2>
+        <p id="currentWork"></p>
+        <p id="previousWork"></p>
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+            fill="#BBC0FF" fill-rule="evenodd" />
+        </svg>
+        <div class="weeklyWork">
+          <h2 id="titleWork"></h2>
+          <p id="currentWork"></p>
+        </div>
+        <div class="monthlyWork">
+          <h2 id="titleWork"></h2>
+          <p id="currentWork"></p>
+        </div>
+      </div>
+    </div>
+    <div class="trackTime">
+      <div class="trackingContainer">
+        <h2 id="titlePlay"></h2>
+        <p id="currentPlay"></p>
+        <p id="previousPlay"></p>
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+            fill="#BBC0FF" fill-rule="evenodd" />
+        </svg>
+      </div>
+    </div>
+    <div class="trackTime">
+      <div class="trackingContainer">
+        <h2 id="studyTitle"></h2>
+        <p id="currentStudy"></p>
+        <p id="previousStudy"></p>
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+            fill="#BBC0FF" fill-rule="evenodd" />
+        </svg>
+      </div>
+    </div>
+    <div class="trackTime">
+      <div class="trackingContainer">
+        <!-- Exercise
+        1hr -->
+        <h2 id="exerciseTitle"></h2>
+        <p id="currentExercise"></p>
+        <p id="previousExercise"></p>
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+            fill="#BBC0FF" fill-rule="evenodd" />
+        </svg>
+      </div>
+    </div>
+    <div class="trackTime">
+      <div class="trackingContainer">
+        <h2 id="socialTitle"></h2>
+        <p id="currentSocial"></p>
+        <p id="previousSocial"></p>
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+            fill="#BBC0FF" fill-rule="evenodd" />
+        </svg>
+      </div>
+    </div>
+    <div class="trackTime">
+      <div class="trackingContainer">
+        <h2 id="selfCareTitle"></h2>
+        <p id="currentSelfCare"></p>
+        <p id="previousSelfCare"></p>
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+            fill="#BBC0FF" fill-rule="evenodd" />
+        </svg>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
