@@ -1,7 +1,6 @@
 let daily = document.getElementById("daily");
 let weekly = document.getElementById("weekly");
 let monthly = document.getElementById("monthly");
-console.log("test");
 fetch("data.json")
   .then((response) => {
     return response.json();
