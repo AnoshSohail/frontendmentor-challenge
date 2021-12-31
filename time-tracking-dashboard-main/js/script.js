@@ -2,7 +2,7 @@ let daily = document.getElementById("daily");
 let weekly = document.getElementById("weekly");
 let monthly = document.getElementById("monthly");
 
-fetch("../data.json")
+fetch("./data.json")
   .then((response) => {
     return response.json();
   })
