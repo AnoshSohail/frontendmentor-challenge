@@ -1,7 +1,7 @@
 let daily = document.getElementById("daily");
 let weekly = document.getElementById("weekly");
 let monthly = document.getElementById("monthly");
-
+console.log("test");
 fetch("./data.json")
   .then((response) => {
     return response.json();
@@ -38,7 +38,6 @@ fetch("./data.json")
       let currentSelfCare = data[5].timeframes.daily.current;
       let previousSelfCare = data[5].timeframes.daily.previous;
 
-      console.log(currentPlay);
       document.getElementById("currentWork").innerHTML = `${currentWork}hrs`;
       document.getElementById(
         "previousWork"
