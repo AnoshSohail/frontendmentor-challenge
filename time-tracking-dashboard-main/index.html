@@ -16,13 +16,16 @@
 
 <body>
   <main>
+    <!-- resolve accessibility and html issue
+    1- h1 and p not allowed in ul
+  2- repetitive IDs not allowed -->
     <div class="container">
       <div class="reportCard">
         <img src="./images/image-jeremy.png" alt="Jeremy Robson" class="userImg">
-        <ul class="userReport">
+        <div class="reportInfo">
           <h1> Report for </h1>
           <p class="userName"> Jeremy Robson </p>
-        </ul>
+        </div>
       </div>
       <div class="timePeriod">
         <ul>
@@ -48,14 +51,6 @@
             d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
             fill="#BBC0FF" fill-rule="evenodd" />
         </svg>
-        <div class="weeklyWork">
-          <h2 id="titleWork"></h2>
-          <p id="currentWork"></p>
-        </div>
-        <div class="monthlyWork">
-          <h2 id="titleWork"></h2>
-          <p id="currentWork"></p>
-        </div>
       </div>
     </div>
     <div class="trackTime">

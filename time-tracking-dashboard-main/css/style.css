@@ -20,6 +20,7 @@ main {
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 10px;
+  width: 95%;
 }
 .reportCard {
   background-color: hsl(246, 80%, 60%);
@@ -39,11 +40,12 @@ main {
   overflow: hidden;
   margin-right: 10px;
 }
-.userReport {
-  margin-top: 5px;
+.reportInfo {
+  display: flex;
+  flex-direction: column;
 }
 h1 {
-  display: inline;
+  display: inline-block;
   font-size: 1rem;
   color: hsl(236, 100%, 87%);
   font-weight: 300;
