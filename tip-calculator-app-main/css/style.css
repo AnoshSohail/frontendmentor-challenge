@@ -17,11 +17,17 @@ body {
 .logo {
   padding-bottom: 40px;
   padding-top: 40px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
 }
-main {
+/* main {
+  
+} */
+.container {
   width: 100%;
   /* max-width: 420px; */
-  margin: 0 auto;
+
   background-color: #fff;
   position: relative;
   max-width: 420px;
@@ -33,9 +39,11 @@ main {
 /* .calculator {
  
 } */
-h1 {
+
+label {
   color: hsl(186, 14%, 43%);
   font-size: 0.9rem;
+  font-weight: 700;
 }
 .dollarSign {
   position: absolute;
@@ -50,16 +58,11 @@ h1 {
   border-radius: 5px;
   padding: 5px;
 }
+
 .billInput:focus,
 .peopleNoInput:focus,
 .custom:focus {
   outline-color: hsl(172, 67%, 45%);
-}
-.selectTip {
-  color: hsl(186, 14%, 43%);
-  padding-top: 20px;
-  padding-bottom: 10px;
-  font-weight: 700;
 }
 .PercentageBtn {
   border-radius: 5px;
@@ -94,13 +97,6 @@ h1 {
   font-size: 1.2rem;
   text-align: center;
 }
-.peopleNo {
-  padding-top: 25px;
-  font-size: 0.9rem;
-  color: hsl(186, 14%, 43%);
-  font-weight: 700;
-  padding-bottom: 2px;
-}
 .error {
   color: red;
   font-size: 0.8rem;
@@ -114,6 +110,9 @@ h1 {
   top: 320px;
   left: 60px;
   z-index: 1;
+}
+.people {
+  padding-top: 20px;
 }
 .peopleNoInput {
   background-color: hsl(189, 41%, 97%);
@@ -144,6 +143,7 @@ button:focus {
 .tip {
   color: hsl(0, 0%, 100%);
   font-size: 0.8rem;
+  padding-top: 20px;
 }
 .total {
   padding-top: 20px;
@@ -202,6 +202,10 @@ input {
     padding-top: 0;
   }
   main {
+    max-width: 720px;
+    min-width: 720px;
+  }
+  .container {
     display: flex;
     justify-content: space-between;
     max-width: 600px;
@@ -212,7 +216,7 @@ input {
   }
 
   .dollarSign {
-    top: 50px;
+    top: 52px;
     left: 45px;
   }
   .error {
@@ -220,7 +224,7 @@ input {
     top: 227px;
   }
   .personImg {
-    top: 254px;
+    top: 248px;
     left: 45px;
   }
   .peopleNo {
