@@ -70,6 +70,7 @@ let customInput = document.getElementById("custom");
 let billValue = 0.0;
 let personValue = 1;
 let tipValue = 0.15;
+let amount;
 billInput.addEventListener("input", billFunction);
 personNo.addEventListener("input", personFunction);
 customInput.addEventListener("input", customVal);
@@ -80,7 +81,6 @@ function handleClick(event) {
   Array.from(btn).forEach(function (val) {
     if (event.target.innerHTML == val.innerHTML) {
       tipValue = parseFloat(val.innerHTML) / 100;
-      console.log(tipValue);
     }
   });
   tip();
@@ -89,16 +89,13 @@ function handleClick(event) {
 function billFunction() {
   billValue = parseFloat(billInput.value);
   tip();
-  console.log(billValue);
 }
 function customVal() {
   tipValue = parseFloat(customInput.value) / 100;
-  console.log(tipValue);
   tip();
 }
 function personFunction() {
   personValue = parseFloat(personNo.value);
-  console.log(personValue);
   if (personValue < 1) {
     document.getElementById("error").innerHTML = "Can't be zero";
     document.getElementById("personNo").style.outlineColor = "red";
@@ -109,7 +106,6 @@ function personFunction() {
     tip();
   }
 }
-let amount;
 function tip() {
   if (personValue >= 1) {
     amount = (billValue * tipValue) / personValue;
@@ -117,7 +113,6 @@ function tip() {
     tipAmount.innerHTML = "$" + amount.toFixed(2);
     totalAmount.innerHTML = "$" + total.toFixed(2);
   }
-  console.log(amount);
 }
 resetBtn.addEventListener("click", () => {
   tipAmount.innerHTML = "$0.00";
