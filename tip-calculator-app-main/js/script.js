@@ -68,7 +68,7 @@ let totalAmount = document.getElementById("totalAmount");
 let btn = document.getElementsByClassName("btn");
 let customInput = document.getElementById("custom");
 let billValue = 0.0;
-let personValue = 1;
+let personValue;
 let tipValue = 0.15;
 let amount;
 billInput.addEventListener("input", billFunction);
