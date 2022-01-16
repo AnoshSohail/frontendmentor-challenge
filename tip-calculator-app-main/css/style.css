@@ -39,6 +39,14 @@ body {
 /* .calculator {
  
 } */
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
 
 label {
   color: hsl(186, 14%, 43%);
@@ -154,14 +162,14 @@ button:focus {
 .tipAmount,
 .totalAmount {
   position: absolute;
-  top: 25px;
+  top: 40px;
   right: 15px;
   color: hsl(172, 67%, 45%);
   font-size: 1.8rem;
   font-weight: 700;
 }
 .totalAmount {
-  top: 82px;
+  top: 97px;
 }
 span {
   display: block;

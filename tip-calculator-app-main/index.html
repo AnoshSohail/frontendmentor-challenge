@@ -17,15 +17,16 @@
 <body>
   <main>
     <img src="./images/logo.svg" alt="splitter" class="logo">
+    <h1 class="sr-only">Tip Calculator</h1>
     <div class="container">
       <div class="calculate">
         <div class="bill">
           <img src="./images/icon-dollar.svg" alt="" class="dollarSign">
-          <label for="Bill">Bill</label>
+          <label for="billInput">Bill</label>
           <input type="text" class="billInput" id="billInput">
         </div>
         <div class="tip">
-          <label for="Percentage">Select Percentage %</label>
+          <label for="tipPercentage">Select Percentage %</label>
           <div class="tipPercentage" id="tipPercentage">
             <button class="btn PercentageBtn" value="5"> 5% </button>
 
@@ -47,7 +48,7 @@
         <div class="people">
           <p class="error" id="error"></p>
           <img src="./images/icon-person.svg" alt="" class="personImg">
-          <label for="people">Number of People</label>
+          <label for="personNo">Number of People</label>
           <input type="number" class="peopleNoInput" placeholder="0" id="personNo">
         </div>
       </div>
@@ -70,7 +71,7 @@
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Anosh Sohail</a>.
     </div>
   </footer>
 </body>
