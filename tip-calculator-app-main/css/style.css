@@ -153,6 +153,11 @@ button:focus {
   font-size: 0.8rem;
   padding-top: 20px;
 }
+.percentage {
+  color: hsl(186, 14%, 43%);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
 .total {
   padding-top: 20px;
   color: hsl(0, 0%, 100%);
