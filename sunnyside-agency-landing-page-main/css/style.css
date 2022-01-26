@@ -56,9 +56,6 @@ ul li:nth-child(4) {
 ul li:nth-child(4):hover {
   background-color: hsl(198, 62%, 76%);
 }
-ul li:nth-child(4) {
-  background-color: hsl(198, 62%, 76%);
-}
 ul li:nth-child(4) a {
   color: black;
   font-family: "Fraunces", serif;
@@ -376,7 +373,7 @@ a {
   }
 }
 @media (min-width: 707px) {
-  .hamburgerMenu {
+  button {
     display: none;
   }
   .linksContainer {
