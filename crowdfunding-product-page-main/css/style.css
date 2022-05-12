@@ -1,5 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Commissioner", sans-serif;
+}
+header {
+  background-image: url("../images/image-hero-mobile.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 56vh;
+  max-width: 100vw;
+  background-repeat: no-repeat;
+  display: block;
+  position: relative;
+}
+body {
+  background-color: hsl(0, 0%, 97%);
+}
+ul {
+  display: flex;
+}
+li {
+  list-style: none;
+}
+.crowdfundLogo {
+  padding-top: 10px;
+}
+.hamburger {
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+.mastercraftCard {
+  position: relative;
+  top: -50px;
+  background-color: white;
+  min-height: 300px;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px 15px;
+}
+.mastercraftLogo {
+  position: absolute;
+  top: -30px;
+  left: 139px;
+}
+h1 {
+  padding-top: 30px;
+  font-size: 1.5rem;
+  text-align: center;
+  width: 77%;
+  margin: 0 auto;
+  font-weight: 700;
+}
+.mastercraftParagraph {
+  padding-top: 20px;
+  text-align: center;
+  color: hsl(0, 0%, 48%);
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+.flexContainer {
+  display: flex;
+  padding-top: 35px;
+  padding-left: 15px;
+}
+.backProject {
+  width: 70%;
+  color: white;
+  font-weight: 500;
+  background-color: hsl(176, 50%, 47%);
+  border: none;
+  padding: 20px 25px;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+.bookmark {
+  border: none;
+  background-color: transparent;
+  margin-left: 10px;
+}
+.sr_only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+.backDetails{
+  background-color: #fff;
+  padding: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.noOfBack{
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+.totalBack{
+  color: hsl(0, 0%, 48%);
+  text-align: center;
+  padding-top: 10px;
+  font-weight: 500;
+}
+hr{
+  width: 40%;
+margin-left: 70px;
+margin-top: 30px;
+border-color: lightgray;
+opacity: 0.5;
 }
